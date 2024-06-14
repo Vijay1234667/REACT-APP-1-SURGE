@@ -1,13 +1,307 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Navbar .nav-btn .btn:hover{
+  background-color:#FFFFFF;
+  color: #6415ff;
+  transition: 0.3s ease-in-out;
+}
+.Navbar .Nav-link{
+  color:black;
+  margin-left: 19px;
+  font-weight: 400;
+  position: relative;
+  font-family: "Inknut Antiqua", serif;
+}
+.Navbar .Nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: #6415ff;
+  height: 2px;
+  left: 0;
+  bottom: 1px;
+  right: 0;
+  margin: 0 auto;
+  transform: scaleX(0);
+  transition: 0.3s ease-in-out;
+}
+.Navbar .Nav-link:hover::after {
+  transform: scaleX(1);
+}
+.Navbar .Logo{
+  color:black;
+  font-size: 27px;
+  font-weight: 400;
+  font-family: "Inknut Antiqua", serif;
+}
+.banner-background-color{
+  position: absolute;
+  background-color: rgb(100 21 255);
+  opacity: 0.25;
+  inset: 0;
+}
+.Banner-Section{
+  background-image:url(../src/Img/banner-bg.jpeg);
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.Banner-Body-Content{
+padding-top: 200px;
+}
+.Banner-Body-Content h6{
+  border-left: 5px solid #6415ff;
+}
+.Banner-Body-Content h1{
+  font-size: 55px;
+  font-family: "Inknut Antiqua", serif;
+}
+.Banner-Body-Content span{
+  color:#6415ff;
+  position: relative;
+  z-index: 1;
+}
+.Banner-Body-Content span::before{
+  position: absolute;
+ content: "";
+ background-color: white;
+ height: 100%;
+ z-index: -1;
+ width: 85%;
+ transform: skew(15deg);
+}
+.banner-btn .btn{
+  color: #6415ff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 40%;
+  border-radius: 0px;
+  padding: 14px;
+}
+.banner-btn .btn:hover{
+  background-color:#6415ff;
+  color: #FFFFFF;
+  transition: 0.3s ease-in-out;
+}
+.Banner-Section .Card{
+  padding: 80px;
+}
+.Same-TB-Padding{
+  padding: 90px 0px 90px;
+}
+.Same-TB-Padding span{
+  color: #6415ff;
+}
+.Record-num-increment  li{
+  margin-right: 50px;
+  margin-bottom: 28px;
+}
+.Record-num-increment  li h4{
+  font-size: 25px;
+  line-height: 29px;
+  color: #243E63;
+  font-weight: 600;
+}
+.Record-num-increment  li h5{
+  font-size: 17px;
+  color:#6415ff;
+  font-weight: 500;
+}
+/* Services-Section */
+.Services-Section .Card{
+  border: 3px dotted #6415ff;
+}
+.Services-Section .Card{
+  padding: 30px 0px 30px;
+}
+.Services-Section .Card .imgborder{
+  width: 70px;
+  border-radius: 50%;
+  padding: 18px;
+  border: 2px solid #6415ff;
+}
+.Services-Section .Card-Title{
+ color: #6415ff;
+ font-size: 22px;
+ font-weight: 600;
+ margin-bottom: 20px;
+}
+.Services-Section .Card-Text{
+ color:#243E63;
+ font-size: 16px;
+ line-height: 29px;
+ font-weight: 500;
+ margin-bottom: 20px;
+}
+/* Expertise-Section */
+ .Expertise-Left-body-content h5{
+  color: #6415ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.Expertise-bottom-section img{
+  width: 40px;
+  border-radius: 50%;
+  padding: 7px;
+  border: 1px solid #6415ff;
+}
+/* Portfolio-Section */
+.Portfolio-right-body-content .Portfolio-btn .btn{
+  color: #6415ff;
+  font-size: 19px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.Portfolio-left-body-content .Card h4{
+  color: #6415ff;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.Portfolio-left-body-content .Card h6{
+  color: rgb(124 139 161);
+  font-size: 15px;
+  line-height: 32px;
+}
+.Portfolio-left-body-content .Card h3{
+  color:#243E63;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+.Accordion-Body-section .accordion-button{
+  color:#243E63 !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.accordion-button:not(.collapsed){
+  background-color: white;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+.Accordion-Body-section .accordion-answer{
+  color: rgb(38, 51, 69);
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+.Blog-Body-Content .Card-Body h6{
+  color: rgb(124 139 161);
+  font-size: 15px;
+  line-height: 32px;
+}
+.Blog-Body-Content .Card-Body h5{
+  color:#243E63;
+  font-size: 19px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.Blog-Body-Content .Card-Body{
+border: 2px  dotted #6415ff;
+}
+.ContactUs-left-body-content .ContactUs-Btn input{
+  font-size: 16px;
+  padding: 9px 20px;
+  font-weight: 400;
+  border-radius: 0px;
+  border: 2px solid #99bef3;
+}
+.Testimonials-Section .review-person{
+  width: 120px;
+  border-radius: 50%;
+}
+.Testimonials-Section{
+position: relative;
+}
+.Testimonials-Section .css-i4bv87-MuiSvgIcon-root{
+  width: 2em !important;
+  height: 2em !important;
+  color:#6415ff;
+  margin-right: 6px;
+}
+/* .Testimonials-Section .swipper{
+position:inherit;
+}
+ .swiper-button-next{
+  position: absolute !important;
+  right: 140px !important;
+  top: 350px !important;
+ } */
+
+.Testimonials-Section .review-body h3{
+color: #6415ff;
+font-weight: 600;
+}
+.Testimonials-Section .review-text{
+color:#35435c;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 1px;
+}
+.Testimonials-Section .swiper{
+  position: static !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 20px !important;
+  font-weight: 900;
+  color:white;
+}
+.swiper-button-prev, .swiper-button-next{
+  background-color:#270865f4;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{
+  opacity:0.50 !important;
+}
+.Testimonials-Section .review-body span{
+color:#243E63;
+}
+.Footer-Section{
+  background-color: #303846;
+}
+.Footer-Section .Copyright{
+  color:#99bef3;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.Footer-Section li{
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.accordion-button::after{
+  content: "+";
+  background-image: none;
+  background-color: #6415ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 15px;
+  border-radius: 50%;
+}
+.accordion-button:not(.collapsed)::after{
+  content: "-";
+  background-image: none;
+
 }

@@ -1,0 +1,107 @@
+$myColor: #6415ff;
+$myColorh2: #243e63;
+$myFontSizeh2: 52px;
+$myFontWeighth2: 700;
+$myColorParaclass: rgb(124 139 161);
+
+h2 {
+  color: $myColorh2;
+  font-size: $myFontSizeh2;
+  font-weight: $myFontWeighth2;
+  margin-bottom: 15px;
+}
+@mixin important-paraclass {
+  color: rgb(124 139 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.Expertise-Left-body-content .para {
+  @include important-paraclass;
+}
+.Portfolio-right-body-content .para {
+  @include important-paraclass;
+}
+.Faq-Right-body-content .para {
+  @include important-paraclass;
+}
+.Blog-Section .Blog-top-heading .para {
+  @include important-paraclass;
+  font-size: 15px;
+  line-height: 26px;
+}
+@mixin important-pTagCall {
+  color: rgb(124 139 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+.Record-right-body-content p {
+  @include important-pTagCall;
+}
+.Expertise-bottom-section p {
+  @include important-pTagCall;
+  font-size: 15px;
+  color: #243e63;
+  line-height: 26px;
+}
+.Testimonials-Left-body-content p {
+  @include important-pTagCall;
+}
+
+.Blog-Body-Content .Card-Body p {
+  @include important-pTagCall;
+  font-size: 15px;
+  line-height: 20px;
+}
+.ContactUs-left-body-content p {
+  @include important-pTagCall;
+  font-weight: 500;
+}
+
+@mixin important-Btn {
+  background-color: #6415ff;
+  font-size: 16px;
+  padding: 6px 21px;
+  border-radius: 0px;
+  font-weight: 500;
+  color: white;
+}
+.nav-btn .btn {
+  @include important-Btn;
+}
+.Expertise-Portfolio-btn .btn {
+  @include important-Btn;
+  font-weight: 500;
+  padding: 7px 30px;
+}
+.Portfolio-left-body-content .Card .Portfolio-btn .btn {
+  @include important-Btn;
+  width: 100%;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 13px;
+}
+.record-increment-learn-more-btn .btn{
+  @include important-Btn;
+}
+
+.Blog-Body-Content .Blog-btn .btn {
+  @include important-Btn;
+  padding: 6px 27px;
+}
+.ContactUs-left-body-content .ContactUs-Btn .btn {
+  @include important-Btn;
+  padding: 9px 20px;
+}
+@mixin important-Heading6 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  color: #6415ff;
+}
+h6{
+  @include important-Heading6;
+}

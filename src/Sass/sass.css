@@ -1,0 +1,146 @@
+h2 {
+  color: #243e63;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.Expertise-Left-body-content .para {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.Portfolio-right-body-content .para {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.Faq-Right-body-content .para {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.Blog-Section .Blog-top-heading .para {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.Record-right-body-content p {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.Expertise-bottom-section p {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  font-size: 15px;
+  color: #243e63;
+  line-height: 26px;
+}
+
+.Testimonials-Left-body-content p {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.Blog-Body-Content .Card-Body p {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.ContactUs-left-body-content p {
+  color: rgb(124, 139, 161);
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  font-weight: 500;
+}
+
+.nav-btn .btn {
+  background-color: #6415ff;
+  font-size: 16px;
+  padding: 6px 21px;
+  border-radius: 0px;
+  font-weight: 500;
+  color: white;
+}
+
+.Expertise-Portfolio-btn .btn {
+  background-color: #6415ff;
+  font-size: 16px;
+  padding: 6px 21px;
+  border-radius: 0px;
+  font-weight: 500;
+  color: white;
+  font-weight: 500;
+  padding: 7px 30px;
+}
+
+.Portfolio-left-body-content .Card .Portfolio-btn .btn {
+  background-color: #6415ff;
+  font-size: 16px;
+  padding: 6px 21px;
+  border-radius: 0px;
+  font-weight: 500;
+  color: white;
+  width: 100%;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 13px;
+}
+
+.Blog-Body-Content .Blog-btn .btn {
+  background-color: #6415ff;
+  font-size: 16px;
+  padding: 6px 21px;
+  border-radius: 0px;
+  font-weight: 500;
+  color: white;
+  padding: 6px 27px;
+}
+
+.ContactUs-left-body-content .ContactUs-Btn .btn {
+  background-color: #6415ff;
+  font-size: 16px;
+  padding: 6px 21px;
+  border-radius: 0px;
+  font-weight: 500;
+  color: white;
+  padding: 9px 20px;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 28px;
+  color: #6415ff;
+}/*# sourceMappingURL=sass.css.map */
