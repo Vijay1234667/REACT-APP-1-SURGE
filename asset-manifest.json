@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/REACT-APP-1-SURGE/static/css/main.e59ad178.css",
-    "main.js": "/REACT-APP-1-SURGE/static/js/main.004970eb.js",
+    "main.js": "/REACT-APP-1-SURGE/static/js/main.139d3ab4.js",
     "static/js/453.298921a8.chunk.js": "/REACT-APP-1-SURGE/static/js/453.298921a8.chunk.js",
     "static/media/banner-bg.jpeg": "/REACT-APP-1-SURGE/static/media/banner-bg.84ea20613b51e1cb6597.jpeg",
     "static/media/TeslaInc.jpeg": "/REACT-APP-1-SURGE/static/media/TeslaInc.07a81e7bd9f3502cceb3.jpeg",
@@ -18,11 +18,11 @@
     "static/media/ServicesImage4.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage4.1367510a8f0a1bec76dc425d25f92f43.svg",
     "static/media/ServicesImage5.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage5.dbb971a73d4805d2fc3bcdacdb55beba.svg",
     "main.e59ad178.css.map": "/REACT-APP-1-SURGE/static/css/main.e59ad178.css.map",
-    "main.004970eb.js.map": "/REACT-APP-1-SURGE/static/js/main.004970eb.js.map",
+    "main.139d3ab4.js.map": "/REACT-APP-1-SURGE/static/js/main.139d3ab4.js.map",
     "453.298921a8.chunk.js.map": "/REACT-APP-1-SURGE/static/js/453.298921a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e59ad178.css",
-    "static/js/main.004970eb.js"
+    "static/js/main.139d3ab4.js"
   ]
 }
