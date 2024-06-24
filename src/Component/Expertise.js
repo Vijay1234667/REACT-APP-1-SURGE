@@ -7,7 +7,7 @@ import ServicesImage1 from '../Img/ServicesImage1.svg';
 
 
 
-function ExpertiseSection() {
+function Expertise() {
     return (
         <section className='Expertise-Section Same-TB-Padding'>
             <Container>
@@ -61,4 +61,4 @@ function ExpertiseSection() {
         </section>
     );
 }
-export default ExpertiseSection;
+export default Expertise;

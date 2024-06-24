@@ -1,3 +1,6 @@
+
+
+
 h2 {
   color: #243e63;
   font-size: 52px;
@@ -30,7 +33,6 @@ h2 {
 }
 
 .Blog-Section .Blog-top-heading .para {
-  color: rgb(124, 139, 161);
   font-size: 18px;
   line-height: 32px;
   font-weight: 400;
@@ -144,3 +146,5 @@ h6 {
   margin-bottom: 28px;
   color: #6415ff;
 }/*# sourceMappingURL=sass.css.map */
+
+

@@ -6,9 +6,9 @@ import FaqImg from '../Img/FaqImg.svg';
 
 
 
-function FaqSection() {
+function Faqs() {
     return (
-        <section className='Faq-Section Same-TB-Padding'>
+        <section className='Faq-Section Same-TB-Padding' id='Faqs'>
             <Container>
                 <div className='Faq-Body-Content'>
                     <Row className='justify-content-between'>
@@ -62,4 +62,4 @@ function FaqSection() {
         </section>
     );
 }
-export default FaqSection;
+export default Faqs;

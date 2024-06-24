@@ -84,7 +84,7 @@ h2 {
   line-height: 28px;
   margin-top: 13px;
 }
-.record-increment-learn-more-btn .btn{
+.record-increment-learn-more-btn .btn {
   @include important-Btn;
 }
 
@@ -102,6 +102,73 @@ h2 {
   margin-bottom: 28px;
   color: #6415ff;
 }
-h6{
+h6 {
   @include important-Heading6;
+}
+
+@media only screen and (max-width: 767px) {
+  $myColor: #6415ff;
+  $myColorh2: #243e63;
+  $myFontSizeh2: 25px;
+  $myFontWeighth2: 600;
+  $myColorParaclass: rgb(124 139 161);
+  
+  h2 {
+    color: $myColorh2;
+    font-size: $myFontSizeh2;
+    font-weight: $myFontWeighth2;
+    margin-bottom: 15px;
+  }
+  @mixin important-paraclass {
+    color: rgb(124 139 161);
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .Expertise-Left-body-content .para {
+    @include important-paraclass;
+  }
+  .Portfolio-right-body-content .para {
+    @include important-paraclass;
+  }
+  .Faq-Right-body-content .para {
+    @include important-paraclass;
+  }
+  .Blog-Section .Blog-top-heading .para {
+    @include important-paraclass;
+    font-size: 15px;
+  }
+
+  @mixin important-pTagCall {
+    color: rgb(124 139 161);
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .Record-right-body-content p {
+    @include important-pTagCall;
+  }
+  .Expertise-bottom-section p {
+    @include important-pTagCall;
+    font-size: 14px;
+    color: #243e63;
+    line-height: 25px;
+  }
+  .Testimonials-Left-body-content p {
+    @include important-pTagCall;
+  }
+  
+  .Blog-Body-Content .Card-Body p {
+    @include important-pTagCall;
+    font-size: 14px;
+    line-height: 27px;
+  }
+  .ContactUs-left-body-content p {
+    @include important-pTagCall;
+    font-weight: 500;
+  }
+
 }

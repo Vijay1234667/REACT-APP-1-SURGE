@@ -11,7 +11,7 @@ import ServicesImage6 from '../Img/ServicesImage5.svg';
 
 
 
-function ServicesSection() {
+function Services() {
  
     return (
         <section className='Services-Section Same-TB-Padding'>
@@ -27,13 +27,14 @@ function ServicesSection() {
                                 <img className='img-fluid imgborder' src={ServicesImage1} alt="Record" />
                             </div>
                             <Card.Body className='text-center'>
-                                <Card.Title className='Card-Title'>Ads Management</Card.Title>
+                                <Card.Title className='Card-Title'>Web Dev</Card.Title>
                                 <Card.Text className='Card-Text'>
                                     We create and manage ads that you need, from creation to deployment. Lorem ipsum donor sit amet consicou.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Col>
+                    
                     <Col lg={4}>
                         <Card className='Card mb-3'>
                             <div className='text-center'>
@@ -104,4 +105,4 @@ function ServicesSection() {
         </section>
     );
 }
-export default ServicesSection;
+export default Services;

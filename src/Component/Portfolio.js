@@ -8,9 +8,9 @@ import Card from 'react-bootstrap/Card';
 import TeslaInc from '../Img/TeslaInc.jpeg';
 
 
-function PortfolioSection() {
+function Portfolio() {
     return (
-        <section className='Portfolio-Section Same-TB-Padding'>
+        <section className='Portfolio-Section Same-TB-Padding' id="Portfolio">
             <Container>
                 <div className='Portfolio-Body-Content'>
                     <Row>
@@ -85,4 +85,4 @@ function PortfolioSection() {
         </section>
     );
 }
-export default PortfolioSection;
+export default Portfolio;

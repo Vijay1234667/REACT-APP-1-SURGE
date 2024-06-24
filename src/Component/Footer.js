@@ -5,7 +5,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import DiamondIcon from '@mui/icons-material/Diamond';
 
 
-function ContactUsSection() {
+function Footer() {
     return (
         <section className='Footer-Section Same-TB-Padding text-white'>
             <Container>
@@ -37,4 +37,4 @@ function ContactUsSection() {
         </section>
     );
 }
-export default ContactUsSection;
+export default Footer;

@@ -13,8 +13,7 @@ import TestiImg1 from '../Img/TestiImg1.jpeg';
 import TestiImgRoundedImg1 from '../Img/TestiImgRoundedImg1.jpeg';
 import TestiImgRoundedImg2 from '../Img/TestiImgRoundedImg2.jpeg';
 
-
-function TestimonialsSection() {
+function Testimonials() {
     return (
         <section className='Testimonials-Section Same-TB-Padding'>
             <Container>
@@ -79,7 +78,7 @@ function TestimonialsSection() {
         </section>
     );
 }
-export default TestimonialsSection;
+export default Testimonials;
 
 
 

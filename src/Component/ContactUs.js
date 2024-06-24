@@ -2,11 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import contactImg from '../Img/contactImg.svg';
+import Banner from './Banner';
 
 
 function ContactUsSection() {
     return (
-        <section className='ContactUs-Section Same-TB-Padding'>
+        <>
+        <Banner/>
+        <section className='ContactUs-Section Same-TB-Padding' id='ContactUs'>
             <Container>
                 <div className='ContactUs-Body-Content'>
                     <Row className='justify-content-between'>
@@ -34,6 +37,7 @@ function ContactUsSection() {
                 </div>
             </Container>
         </section>
+        </>
     );
 }
 export default ContactUsSection;

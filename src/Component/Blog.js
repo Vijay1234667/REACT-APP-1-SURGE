@@ -9,10 +9,11 @@ import BlogImg2 from '../Img/BlogImg2.avif';
 import BlogImg3 from '../Img/BlogImg3.avif';
 
 
-
 function BlogSection() {
     return (
-        <section className='Blog-Section Same-TB-Padding'>
+        <>
+   
+        <section className='Blog-Section Same-TB-Padding' id='Blog'>
             <Container>
                 <div className='Blog-top-heading text-center mb-5'>
                     <h6>Blog</h6>
@@ -94,6 +95,7 @@ function BlogSection() {
                 </div>
             </Container>
         </section>
+        </>
     );
 }
 export default BlogSection;

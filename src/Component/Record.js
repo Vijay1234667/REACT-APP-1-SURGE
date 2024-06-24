@@ -5,7 +5,7 @@ import RecordImage from '../Img/RecordImage.svg';
 
 
 
-function RecordSection() {
+function Record() {
     return (
         <section className='Record-Section Same-TB-Padding'>
             <Container>
@@ -48,4 +48,4 @@ function RecordSection() {
         </section>
     );
 }
-export default RecordSection;
+export default Record;

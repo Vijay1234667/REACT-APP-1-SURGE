@@ -4,9 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-function BannerSection() {
+
+function Banner() {
     return (
-        <section className="Banner-Section">
+        <section className="Banner-Section" id='About'>
             <div className='banner-background-color'></div>
             <Container>
                 <div className='Banner-Body-Content'>
@@ -36,4 +37,4 @@ function BannerSection() {
     );
 }
 
-export default BannerSection;
+export default Banner;
