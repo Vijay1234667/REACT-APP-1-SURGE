@@ -1,32 +1,28 @@
 {
   "files": {
-    "main.css": "/REACT-APP-1-SURGE/static/css/main.9adb56c3.css",
-    "main.js": "/REACT-APP-1-SURGE/static/js/main.329fe1fa.js",
+    "main.css": "/REACT-APP-1-SURGE/static/css/main.e59ad178.css",
+    "main.js": "/REACT-APP-1-SURGE/static/js/main.004970eb.js",
     "static/js/453.298921a8.chunk.js": "/REACT-APP-1-SURGE/static/js/453.298921a8.chunk.js",
-    "static/media/TestiImgRoundedImg2.jpeg": "/REACT-APP-1-SURGE/static/media/TestiImgRoundedImg2.e8d061ca49a9dc99e028.jpeg",
     "static/media/banner-bg.jpeg": "/REACT-APP-1-SURGE/static/media/banner-bg.84ea20613b51e1cb6597.jpeg",
-    "static/media/TestiImg1.jpeg": "/REACT-APP-1-SURGE/static/media/TestiImg1.83686770e6190c78249d.jpeg",
     "static/media/TeslaInc.jpeg": "/REACT-APP-1-SURGE/static/media/TeslaInc.07a81e7bd9f3502cceb3.jpeg",
     "static/media/BlogImg2.avif": "/REACT-APP-1-SURGE/static/media/BlogImg2.9689c753a1a8716d729f.avif",
-    "static/media/TestiImgRoundedImg1.jpeg": "/REACT-APP-1-SURGE/static/media/TestiImgRoundedImg1.bbd5d5cbbd4ffc8e9ceb.jpeg",
     "static/media/RecordImage.svg": "/REACT-APP-1-SURGE/static/media/RecordImage.89e20edcbf2cccadc1f28b4a73a486ac.svg",
     "static/media/contactImg.svg": "/REACT-APP-1-SURGE/static/media/contactImg.84fb82b841c197337a4bc2c1e660d5a0.svg",
     "static/media/BlogImg1.avif": "/REACT-APP-1-SURGE/static/media/BlogImg1.c772503015a93f172eab.avif",
     "static/media/ExpertisePersonimg.svg": "/REACT-APP-1-SURGE/static/media/ExpertisePersonimg.76aa0427e037826d4453f8791ee544e3.svg",
     "static/media/BlogImg3.avif": "/REACT-APP-1-SURGE/static/media/BlogImg3.041191adcdf81ff5b2a8.avif",
-    "static/media/FaqImg.svg": "/REACT-APP-1-SURGE/static/media/FaqImg.7164659e338b9013dc196213c60c8ad2.svg",
     "index.html": "/REACT-APP-1-SURGE/index.html",
     "static/media/ServicesImage2.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage2.f9253ffa8cb6ffde5bbaa05eb5136375.svg",
     "static/media/ServicesImage3.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage3.367468c90fd796009b97fbfba67b2c6a.svg",
     "static/media/ServicesImage1.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage1.daefe14b320b14fbd9cbd18908ac93ec.svg",
     "static/media/ServicesImage4.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage4.1367510a8f0a1bec76dc425d25f92f43.svg",
     "static/media/ServicesImage5.svg": "/REACT-APP-1-SURGE/static/media/ServicesImage5.dbb971a73d4805d2fc3bcdacdb55beba.svg",
-    "main.9adb56c3.css.map": "/REACT-APP-1-SURGE/static/css/main.9adb56c3.css.map",
-    "main.329fe1fa.js.map": "/REACT-APP-1-SURGE/static/js/main.329fe1fa.js.map",
+    "main.e59ad178.css.map": "/REACT-APP-1-SURGE/static/css/main.e59ad178.css.map",
+    "main.004970eb.js.map": "/REACT-APP-1-SURGE/static/js/main.004970eb.js.map",
     "453.298921a8.chunk.js.map": "/REACT-APP-1-SURGE/static/js/453.298921a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9adb56c3.css",
-    "static/js/main.329fe1fa.js"
+    "static/css/main.e59ad178.css",
+    "static/js/main.004970eb.js"
   ]
 }
