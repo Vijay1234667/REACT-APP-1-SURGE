@@ -12,89 +12,79 @@ import BlogImg3 from '../Img/BlogImg3.avif';
 function BlogSection() {
     return (
         <>
-   
-        <section className='Blog-Section Same-TB-Padding' id='Blog'>
-            <Container>
-                <div className='Blog-top-heading text-center mb-5'>
-                    <h6>Blog</h6>
-                    <h2>We Love <span> Writing.</span></h2>
-                    <p className='para'>
-                        Some amazing blog posts that are written by even <br/> more amazing people.
-                    </p>
-                </div>
-                <div className='Blog-Body-Content'>
-                    <Row>
-                        <Col lg={4} className='mb-3'>
-                            <Card className='Card'>
-                                <div>
-                                    <img className='img-fluid' src={BlogImg1} alt="ExpertisePersonimg" />
-                                </div>
-                                <Card.Body className='Card-Body'>
-                                    <div className='d-flex'>
-                                        <h6><PersonOutlineOutlinedIcon/>Adam Wathan</h6>
-                                        <h6 className='ms-4'> <CreateOutlinedIcon/>SEO</h6>
-                                    </div>
-                                    <div>
-                                        <h5>Optimizing your website for your main keyword</h5>
-                                    </div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <div className='Blog-btn'>
-                                        <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">Read Post</a>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col lg={4} className='mb-3'>
-                            <Card className='Card'>
-                                <div>
-                                    <img className='img-fluid' src={BlogImg2} alt="ExpertisePersonimg" />
-                                </div>
-                                <Card.Body className='Card-Body'>
-                                <div className='d-flex'>
-                                        <h6><PersonOutlineOutlinedIcon/>Adam Wathan</h6>
-                                        <h6 className='ms-4'> <CreateOutlinedIcon/>SEO</h6>
-                                    </div>
-                                    <div>
-                                        <h5>Creating The perfect advertisement campaign</h5>
-                                    </div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <div className='Blog-btn'>
-                                        <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">Read Post</a>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col lg={4} className='mb-3'>
-                            <Card className='Card'>
-                                <div>
-                                    <img className='img-fluid' src={BlogImg3} alt="ExpertisePersonimg" />
-                                </div>
-                                <Card.Body className='Card-Body'>
-                                <div className='d-flex'>
-                                        <h6><PersonOutlineOutlinedIcon/>Adam Wathan</h6>
-                                        <h6 className='ms-4'> <CreateOutlinedIcon/>SEO</h6>
-                                    </div>
-                                    <div>
-                                        <h5>Efficient management of your social media assets</h5>
-                                    </div>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <div className='Blog-btn'>
-                                        <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">Read Post</a>
-                                    </div>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
 
-                </div>
-            </Container>
-        </section>
+            <section className='Blog-Section Same-TB-Padding' id='Blog'>
+                <Container>
+                    <div className='Blog-top-heading text-center mb-5'>
+                        <h6>Blog</h6>
+                        <h2>We Love <span> Writing.</span></h2>
+                        <p className='para'>
+                            Some amazing blog posts that are written by even <br /> more amazing people.
+                        </p>
+                    </div>
+                    <div className='Blog-Body-Content'>
+                        <Row>
+                            <Col lg={4}>
+                                <Card className='Card'>
+                                    <Card.Body className='Card-Body'>
+                                        <img className='img-fluid' src={BlogImg2} alt="ExpertisePersonimg" />
+                                        <div className='d-flex  justify-content-between align-items-center'>
+                                            <h6><PersonOutlineOutlinedIcon />Adam Wathan</h6>
+                                            <h6><CreateOutlinedIcon />SEO</h6>
+                                        </div>
+                                        <h5>Optimizing your website for your main keyword</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div className='Blog-btn'>
+                                            <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">Read Post</a>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col lg={4}>
+                                <Card className='Card'>
+                                    <Card.Body className='Card-Body'>
+                                        <img className='img-fluid' src={BlogImg2} alt="ExpertisePersonimg" />
+                                        <div className='d-flex  justify-content-between align-items-center'>
+                                            <h6><PersonOutlineOutlinedIcon />Adam Wathan</h6>
+                                            <h6><CreateOutlinedIcon />SEO</h6>
+                                        </div>
+                                        <h5>Optimizing your website for your main keyword</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div className='Blog-btn'>
+                                            <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">Read Post</a>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                            <Col lg={4}>
+                                <Card className='Card'>
+                                    <Card.Body className='Card-Body'>
+                                        <img className='img-fluid' src={BlogImg2} alt="ExpertisePersonimg" />
+                                        <div className='d-flex  justify-content-between align-items-center'>
+                                            <h6><PersonOutlineOutlinedIcon />Adam Wathan</h6>
+                                            <h6><CreateOutlinedIcon />SEO</h6>
+                                        </div>
+                                        <h5>Optimizing your website for your main keyword</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div className='Blog-btn'>
+                                            <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">Read Post</a>
+                                        </div>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                          
+                         
+                        </Row>
+
+                    </div>
+                </Container>
+            </section>
         </>
     );
 }

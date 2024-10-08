@@ -1,7 +1,6 @@
 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from '../src/Component/Navbar';
 import Banner from '../src/Component/Banner'
 import Record from '../src/Component/Record';

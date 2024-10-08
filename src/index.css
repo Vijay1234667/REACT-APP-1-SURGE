@@ -7,9 +7,14 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   list-style-type: none;
-
 }
 
+.container{
+  max-width: 1280px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+}
 .Navbar {
   background-color: #303846;
 }
@@ -19,6 +24,7 @@
   transition: 0.3s ease-in-out;
 }
 .Navbar .Nav-link{
+  font-size: 15px;
   color:white;
   margin-left: 19px;
   font-weight: 400;
@@ -26,16 +32,14 @@
   font-family: "Inknut Antiqua", serif;
   text-decoration: none;
 }
-.Navbar .Nav-link:active{
-  color:red;
-}
+
 .Navbar .Nav-link::after {
   content: "";
   position: absolute;
   background-color: white;
   height: 2px;
   left: 0;
-  bottom: 1px;
+  bottom: -6px;
   right: 0;
   margin: 0 auto;
   transform: scaleX(0);
@@ -45,15 +49,13 @@
   transform: scaleX(1);
 }
 .Navbar .Logo{
-  color:black;
-  font-size: 27px;
+  color:white;
   font-weight: 400;
-  font-family: "Inknut Antiqua", serif;
 }
-
-
-
-
+.shandw-none{
+  box-shadow: none !important;
+  border: 0 !important;
+}
 
 .banner-background-color{
   position: absolute;
@@ -63,16 +65,15 @@
 }
 .Banner-Section{
   background-image:url(../src/Img/banner-bg.jpeg);
-  height: 600px;
+  height: 700px;
   background-size: cover;
   position: relative;
   background-position: center;
+  padding: 130px 0px ;
 }
-.Banner-Body-Content{
-padding-top: 200px;
-}
+
 .Banner-Body-Content h6{
-  border-left: 5px solid #6415ff;
+  border-left: 5px solid white;
 }
 .Banner-Body-Content h1{
   font-size: 55px;
@@ -108,8 +109,11 @@ padding-top: 200px;
 .Banner-Section .Card{
   padding: 80px;
 }
+
+
+
 .Same-TB-Padding{
-  padding: 90px 0px 90px;
+  padding: 20px 0px 20px;
 }
 .Same-TB-Padding span{
   color: #6415ff;

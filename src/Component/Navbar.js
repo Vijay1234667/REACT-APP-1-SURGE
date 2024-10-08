@@ -9,14 +9,14 @@ function NavScrollExample() {
     <Navbar expand="lg" className="Navbar">
       <Container>
         <Navbar.Brand className='Logo' href="https://treact.owaiskhan.me/components/landingPages/AgencyLandingPage"><DiamondIcon /><img src="https://ik.imagekit.io/gku4adhog/mobavenue/resources/Surge_Logo_purple.png?updatedAt=1716378588439" width={110} alt="" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle className='shandw-none' aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="mx-auto my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Link className='Nav-link' to="/">Banner</Link>
+            <Link className='Nav-link' to="/">Home</Link>
             <Link className='Nav-link' to="blog">Blog</Link>
             <Link className='Nav-link' to="Record">Record</Link>
             <Link className='Nav-link' to="contact">Contact Us</Link>

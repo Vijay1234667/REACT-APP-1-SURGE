@@ -3,12 +3,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import contactImg from '../Img/contactImg.svg';
 import Banner from './Banner';
+import Testimonials from './Testimonials';
 
 
 function ContactUsSection() {
     return (
         <>
         <Banner/>
+        <Testimonials/>
         <section className='ContactUs-Section Same-TB-Padding' id='ContactUs'>
             <Container>
                 <div className='ContactUs-Body-Content'>
