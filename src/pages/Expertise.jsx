@@ -3,17 +3,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ExpertisePersonimg from '../Img/ExpertisePersonimg.svg';
 import ServicesImage1 from '../Img/ServicesImage1.svg';
-
-
+import Testimonials from './Testimonials';
+import Faqs from './FAQs';
+import { Link } from 'react-router-dom';
 
 
 function Expertise() {
     return (
+        <>
         <section className='Expertise-Section Same-TB-Padding'>
             <Container>
                 <div className='Expertise-Body-Content'>
                     <Row className='justify-content-between'>
-                        <Col lg={7}>
+                        <Col lg={7} className='mb-4'>
                             <div className='Expertise-Left-body-content'>
                                 <div>
                                     <h6>Our Expertise</h6>
@@ -46,7 +48,7 @@ function Expertise() {
                                     </div>
                                 </div>
                                 <div className='Expertise-Portfolio-btn'>
-                                    <a href="https://www.mongodb.com/" className='btn' target="_blank" rel="noopener noreferrer">See Our Portfolio</a>
+                                    <Link to="" className='btn' target="_blank" rel="noopener noreferrer">See Our Portfolio</Link>
                                 </div>
                             </div>
                         </Col>
@@ -59,6 +61,9 @@ function Expertise() {
                 </div>
             </Container>
         </section>
+        <Testimonials/>
+        <Faqs/>
+        </>
     );
 }
 export default Expertise;

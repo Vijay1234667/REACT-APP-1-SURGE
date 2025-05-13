@@ -2,20 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import contactImg from '../Img/contactImg.svg';
-import Banner from './Banner';
-import Testimonials from './Testimonials';
-
+import { Link } from 'react-router-dom';
 
 function ContactUsSection() {
     return (
         <>
-        <Banner/>
-        <Testimonials/>
         <section className='ContactUs-Section Same-TB-Padding' id='ContactUs'>
             <Container>
                 <div className='ContactUs-Body-Content'>
                     <Row className='justify-content-between'>
-
                         <Col lg={6}>
                             <div className='ContactUs-left-body-content'>
                                 <div>
@@ -26,7 +21,7 @@ function ContactUsSection() {
                                 </div>
                                 <div className='ContactUs-Btn'>
                                     <input type='text' placeholder='Your Email Address'  />
-                                    <a href="https://www.mongodb.com/" className='btn ms-5' target="_blank" rel="noopener noreferrer">Contact Me</a>
+                                    <Link href="" className='btn ms-2'>Contact Me</Link>
                                 </div>
                             </div>
                         </Col>

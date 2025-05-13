@@ -10,18 +10,15 @@ function Footer() {
         <section className='Footer-Section Same-TB-Padding text-white'>
             <Container>
                 <div className='Footer-Body-Content text-center'>
-                    <div className='mb-5'>
-                        <h3><DiamondIcon/><img src="https://ik.imagekit.io/gku4adhog/mobavenue/resources/Surge_Logo_purple.png?updatedAt=1716378588439" width={110} alt="" /></h3>
-                    </div>
                     <div>
-                        <ul className='Footer-Nav-links d-flex justify-content-center mb-5'>
+                        <ul className='Footer-Nav-links d-flex justify-content-center mb-3'>
                             <li>Home</li>
                             <li>About</li>
                             <li>Contact Us</li>
                             <li>Blog</li>
                             <li>Reviews</li>
                         </ul>
-                        <ul className='footer-social-icon d-flex justify-content-center mb-5'>
+                        <ul className='footer-social-icon d-flex justify-content-center mb-3'>
                             <li><FacebookOutlinedIcon/></li>
                             <li><TwitterIcon/></li>
                             <li><YouTubeIcon/></li>

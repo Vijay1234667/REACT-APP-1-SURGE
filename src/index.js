@@ -5,8 +5,6 @@ import './index.css';
 import '../src/Sass/sass.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Sdata from './Component/Sdata';
-console.log(Sdata[0]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
